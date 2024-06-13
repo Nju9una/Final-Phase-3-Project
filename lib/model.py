@@ -11,3 +11,9 @@ class Todo:
 
     def __repr__(self):
         return f"Todo('{self.task}', '{self.category}', '{self.date_added}', '{self.date_completed}', {self.status}, {self.position})"
+
+class User:
+    def __init__(self, username, email, password):
+        self.username = username
+        self.email = email
+        self.password = password

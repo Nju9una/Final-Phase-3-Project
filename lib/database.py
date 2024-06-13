@@ -1,7 +1,9 @@
 import sqlite3
-from typing import List
+from typing import List  
 import datetime
-from model import Todo
+from model import Todo, User
+
+# Your database functions...
 
 conn = sqlite3.connect('todos.db')
 c = conn.cursor()
